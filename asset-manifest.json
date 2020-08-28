@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/static/css/main.800f2eae.chunk.css",
+    "main.js": "/static/js/main.57c9735b.chunk.js",
+    "main.js.map": "/static/js/main.57c9735b.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.4c8812c8.js",
+    "runtime-main.js.map": "/static/js/runtime-main.4c8812c8.js.map",
+    "static/js/2.58be3de8.chunk.js": "/static/js/2.58be3de8.chunk.js",
+    "static/js/2.58be3de8.chunk.js.map": "/static/js/2.58be3de8.chunk.js.map",
+    "static/css/3.879e9400.chunk.css": "/static/css/3.879e9400.chunk.css",
+    "static/js/3.1b89359c.chunk.js": "/static/js/3.1b89359c.chunk.js",
+    "static/js/3.1b89359c.chunk.js.map": "/static/js/3.1b89359c.chunk.js.map",
+    "static/css/4.54df59d4.chunk.css": "/static/css/4.54df59d4.chunk.css",
+    "static/js/4.be434b60.chunk.js": "/static/js/4.be434b60.chunk.js",
+    "static/js/4.be434b60.chunk.js.map": "/static/js/4.be434b60.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.896f410cc2d8a6f45cfe4926e24c310d.js": "/precache-manifest.896f410cc2d8a6f45cfe4926e24c310d.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/3.879e9400.chunk.css.map": "/static/css/3.879e9400.chunk.css.map",
+    "static/css/4.54df59d4.chunk.css.map": "/static/css/4.54df59d4.chunk.css.map",
+    "static/css/main.800f2eae.chunk.css.map": "/static/css/main.800f2eae.chunk.css.map",
+    "static/media/index.css": "/static/media/Montserrat-Regular.ee653992.ttf",
+    "static/media/RW.png": "/static/media/RW.c821cb58.png",
+    "static/media/contactMail.webp": "/static/media/contactMail.68e84138.webp",
+    "static/media/developerActivity.svg": "/static/media/developerActivity.59389695.svg",
+    "static/media/eyeball.png": "/static/media/eyeball.d57661bd.png",
+    "static/media/logo.svg": "/static/media/logo.25bf045c.svg",
+    "static/media/manOnTable.svg": "/static/media/manOnTable.52be3144.svg",
+    "static/media/nextuLogo.webp": "/static/media/nextuLogo.829ad0a1.webp",
+    "static/media/saayaHealthLogo.webp": "/static/media/saayaHealthLogo.25018d29.webp",
+    "static/media/skill.svg": "/static/media/skill.34409398.svg",
+    "static/media/svd.png": "/static/media/svd.a0b1a9d3.png",
+    "static/media/TalkCard.css": "/static/media/talksCardBack.13780cdd.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4c8812c8.js",
+    "static/js/2.58be3de8.chunk.js",
+    "static/css/main.800f2eae.chunk.css",
+    "static/js/main.57c9735b.chunk.js"
+  ]
+}

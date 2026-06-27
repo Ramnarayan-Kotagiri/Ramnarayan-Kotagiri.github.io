@@ -3,214 +3,373 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Ramnarayan Kotagiri | Portfolio</title>
+    <title>Ramnarayan Kotagiri | Futuristic Portfolio</title>
     <meta
       name="description"
-      content="Portfolio of Ramnarayan Kotagiri, a full-stack JavaScript developer building web and mobile applications."
+      content="Ramnarayan Kotagiri is a full-stack JavaScript developer building web, mobile, cloud, and AI-search experiences."
     />
+    <meta property="og:title" content="Ramnarayan Kotagiri | Portfolio" />
+    <meta
+      property="og:description"
+      content="Full-stack JavaScript developer portfolio with projects, technology stack, publications, and public GitHub repositories."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://ramnarayan-kotagiri.github.io/" />
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" />
+    <link rel="preconnect" href="https://opengraph.githubassets.com" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <header class="site-header" data-header>
-      <a class="brand" href="#home" aria-label="Ramnarayan Kotagiri home">
-        <span class="brand-mark">RK</span>
-        <span>Ramnarayan Kotagiri</span>
-      </a>
-      <nav class="nav" aria-label="Primary navigation">
-        <a href="#work">Work</a>
-        <a href="#capabilities">Capabilities</a>
-        <a href="#experience">Experience</a>
-        <a href="#contact">Contact</a>
-      </nav>
-      <a class="header-action" href="mailto:rnrkotagiri@gmail.com">Let's talk</a>
-    </header>
+    <div class="page-shell">
+      <header class="site-header" data-header>
+        <a class="brand" href="#home" aria-label="Ramnarayan Kotagiri home">
+          <span class="brand-mark">RK</span>
+          <span>Ramnarayan Kotagiri</span>
+        </a>
+        <nav class="nav" aria-label="Primary navigation">
+          <a href="#stack">Stack</a>
+          <a href="#repos">Repos</a>
+          <a href="#experience">Experience</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <a class="nav-cta" href="https://drive.google.com/file/d/1ZW9cdC_qoaTkV56DLji_kgKD0KKdZFlk/view?usp=sharing">Resume</a>
+      </header>
 
-    <main id="home">
-      <section class="hero">
-        <div class="hero-media" aria-hidden="true">
-          <div class="hero-visual">
-            <span class="screen-panel"></span>
-            <span class="palette-panel"></span>
-            <span class="code-panel"></span>
-          </div>
-        </div>
-        <div class="hero-content">
-          <p class="eyebrow">Full-Stack JavaScript Developer</p>
-          <h1>Ramnarayan Kotagiri</h1>
-          <p class="hero-copy">
-            I build interactive web and mobile applications with JavaScript, AngularJS, Node.js, Ionic, AWS, and practical product engineering.
-          </p>
-          <div class="hero-actions">
-            <a class="button button-primary" href="#work">View work</a>
-            <a class="button button-secondary" href="#contact">Get in touch</a>
-          </div>
-          <dl class="hero-stats" aria-label="Portfolio highlights">
-            <div>
-              <dt>Focus</dt>
-              <dd>Web & mobile apps</dd>
-            </div>
-            <div>
-              <dt>Experience</dt>
-              <dd>FBSI Ltd</dd>
-            </div>
-            <div>
-              <dt>Research</dt>
-              <dd>IEEE / Springer</dd>
-            </div>
-          </dl>
-        </div>
-      </section>
-
-      <section class="intro section">
-        <p class="section-kicker">About</p>
-        <div class="section-grid">
-          <h2>Building useful software across front-end, back-end, and mobile workflows.</h2>
-          <div class="prose">
-            <p>
-              I am a passionate software developer with experience building web and mobile applications using JavaScript,
-              AngularJS, Node.js, Ionic, AWS, and related frameworks.
+      <main id="home">
+        <section class="hero section-band">
+          <div class="hero-copy">
+            <p class="eyebrow">Full-stack JavaScript developer</p>
+            <h1>Engineering sleek web systems for the next interface layer.</h1>
+            <p class="lede">
+              I build high-interaction web and mobile products with Angular, Node.js, Ionic, AWS, search platforms, and
+              delivery-focused engineering.
             </p>
-            <p>
-              My work combines delivery-focused engineering with a research background in medical image processing,
-              watermarking, and classification.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      <section class="section" id="work">
-        <div class="section-heading">
-          <p class="section-kicker">Selected Work</p>
-          <h2>Application work, engineering practice, and research output.</h2>
-        </div>
-        <div class="project-grid">
-          <article class="project-card featured">
-            <div class="project-visual visual-product" aria-hidden="true">
-              <span></span><span></span><span></span>
+            <div class="hero-actions">
+              <a class="button primary" href="#repos">Explore repos</a>
+              <a class="button secondary" href="mailto:rnrkotagiri@gmail.com">Start a conversation</a>
             </div>
-            <div class="project-body">
-              <p class="project-label">Full-Stack Development</p>
-              <h3>Enterprise Web Applications</h3>
+          </div>
+
+          <aside class="identity-panel" aria-label="Profile snapshot">
+            <div class="avatar-frame">
+              <img src="https://avatars.githubusercontent.com/u/13601846?v=4" alt="Ramnarayan Kotagiri" />
+            </div>
+            <div>
+              <p class="panel-label">Ramnarayan Kotagiri</p>
+              <p class="panel-title">JavaScript / Angular / Node / Cloud</p>
+            </div>
+            <dl class="signal-grid">
+              <div>
+                <dt>Public repos</dt>
+                <dd>14</dd>
+              </div>
+              <div>
+                <dt>Experience</dt>
+                <dd>FBSI Ltd</dd>
+              </div>
+              <div>
+                <dt>Research</dt>
+                <dd>IEEE + Springer</dd>
+              </div>
+              <div>
+                <dt>Focus</dt>
+                <dd>Web / Mobile</dd>
+              </div>
+            </dl>
+          </aside>
+        </section>
+
+        <section class="section-band intro">
+          <p class="eyebrow">Profile</p>
+          <div class="split">
+            <h2>Modern product engineering with research-grade problem solving.</h2>
+            <div class="copy-block">
               <p>
-                Built highly interactive front-end interfaces and full-stack application features with strong attention to delivery speed and reliability.
+                I work across front-end interfaces, Node.js services, mobile-first experiences, search workflows, cloud
+                integrations, and delivery automation.
               </p>
-              <div class="tags">
-                <span>JavaScript</span>
-                <span>AngularJS</span>
-                <span>Node.js</span>
+              <p>
+                My background includes full-stack software development, Agile and DevOps delivery, and published research
+                in medical image processing, watermarking, and classification.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section class="section-band stack" id="stack">
+          <div class="section-heading">
+            <p class="eyebrow">Technology Stack</p>
+            <h2>Tools I use to ship polished systems.</h2>
+          </div>
+          <div class="tech-grid" aria-label="Technology icons">
+            <div><i class="devicon-javascript-plain colored"></i><span>JavaScript</span></div>
+            <div><i class="devicon-typescript-plain colored"></i><span>TypeScript</span></div>
+            <div><i class="devicon-angularjs-plain colored"></i><span>Angular</span></div>
+            <div><i class="devicon-react-original colored"></i><span>React</span></div>
+            <div><i class="devicon-nodejs-plain colored"></i><span>Node.js</span></div>
+            <div><i class="devicon-ionic-original colored"></i><span>Ionic</span></div>
+            <div><i class="devicon-html5-plain colored"></i><span>HTML5</span></div>
+            <div><i class="devicon-css3-plain colored"></i><span>CSS3</span></div>
+            <div><i class="devicon-mongodb-plain colored"></i><span>MongoDB</span></div>
+            <div><i class="devicon-amazonwebservices-plain-wordmark colored"></i><span>AWS</span></div>
+            <div><i class="devicon-docker-plain colored"></i><span>Docker</span></div>
+            <div><i class="devicon-python-plain colored"></i><span>Python</span></div>
+            <div><i class="devicon-npm-original-wordmark colored"></i><span>NPM</span></div>
+            <div><i class="devicon-git-plain colored"></i><span>Git</span></div>
+            <div><i class="devicon-azure-plain colored"></i><span>Azure</span></div>
+          </div>
+        </section>
+
+        <section class="section-band repos" id="repos">
+          <div class="section-heading repo-heading">
+            <div>
+              <p class="eyebrow">Public GitHub Repositories</p>
+              <h2>Live code surfaces from my profile.</h2>
+            </div>
+            <div class="repo-filters" aria-label="Repository filters">
+              <button class="filter-chip active" type="button" data-filter="all">All</button>
+              <button class="filter-chip" type="button" data-filter="frontend">Frontend</button>
+              <button class="filter-chip" type="button" data-filter="product">Product</button>
+              <button class="filter-chip" type="button" data-filter="tools">Tools</button>
+            </div>
+          </div>
+
+          <div class="repo-grid">
+            <article class="repo-card feature-repo" data-scope="frontend product">
+              <img src="https://opengraph.githubassets.com/rk-future-portfolio/Ramnarayan-Kotagiri/portfolio" alt="portfolio repository preview" loading="lazy" />
+              <div class="repo-body">
+                <p class="repo-path">/portfolio</p>
+                <h3>portfolio</h3>
+                <p>Original portfolio source and personal site foundation.</p>
+                <div class="repo-actions">
+                  <a href="https://ramnarayan-kotagiri.github.io/portfolio/">Live path</a>
+                  <a href="https://github.com/Ramnarayan-Kotagiri/portfolio">Code</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="repo-card" data-scope="product frontend">
+              <img src="https://opengraph.githubassets.com/rk-future-propose/Ramnarayan-Kotagiri/propose" alt="propose repository preview" loading="lazy" />
+              <div class="repo-body">
+                <p class="repo-path">/propose</p>
+                <h3>propose</h3>
+                <p>Interactive proposal microsite with a focused, emotional product moment.</p>
+                <div class="repo-actions">
+                  <a href="https://ramnarayan-kotagiri.github.io/propose/">Live path</a>
+                  <a href="https://github.com/Ramnarayan-Kotagiri/propose">Code</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="repo-card" data-scope="tools frontend">
+              <img src="https://opengraph.githubassets.com/rk-future-ngx/Ramnarayan-Kotagiri/ngx-category-search" alt="ngx-category-search repository preview" loading="lazy" />
+              <div class="repo-body">
+                <p class="repo-path">/ngx-category-search</p>
+                <h3>ngx-category-search</h3>
+                <p>Angular category search component work for structured discovery flows.</p>
+                <div class="repo-actions">
+                  <a href="https://ramnarayan-kotagiri.github.io/ngx-category-search/">Live path</a>
+                  <a href="https://github.com/Ramnarayan-Kotagiri/ngx-category-search">Code</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="repo-card" data-scope="tools">
+              <img src="https://opengraph.githubassets.com/rk-future-azure/Ramnarayan-Kotagiri/azure-search" alt="azure-search repository preview" loading="lazy" />
+              <div class="repo-body">
+                <p class="repo-path">/azure-search</p>
+                <h3>azure-search</h3>
+                <p>Search implementation experiments with Azure-backed discovery patterns.</p>
+                <div class="repo-actions">
+                  <a href="https://ramnarayan-kotagiri.github.io/azure-search/">Live path</a>
+                  <a href="https://github.com/Ramnarayan-Kotagiri/azure-search">Code</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="repo-card" data-scope="product frontend">
+              <img src="https://opengraph.githubassets.com/rk-future-wedding/Ramnarayan-Kotagiri/wedding-invitation" alt="wedding-invitation repository preview" loading="lazy" />
+              <div class="repo-body">
+                <p class="repo-path">/wedding-invitation</p>
+                <h3>wedding-invitation</h3>
+                <p>Event microsite with a presentation-first user experience.</p>
+                <div class="repo-actions">
+                  <a href="https://ramnarayan-kotagiri.github.io/wedding-invitation/">Live path</a>
+                  <a href="https://github.com/Ramnarayan-Kotagiri/wedding-invitation">Code</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="repo-card" data-scope="product frontend">
+              <img src="https://opengraph.githubassets.com/rk-future-weather/Ramnarayan-Kotagiri/Angular-Weather-App" alt="Angular-Weather-App repository preview" loading="lazy" />
+              <div class="repo-body">
+                <p class="repo-path">/Angular-Weather-App</p>
+                <h3>Angular-Weather-App</h3>
+                <p>Angular weather interface demonstrating API-driven front-end state.</p>
+                <div class="repo-actions">
+                  <a href="https://ramnarayan-kotagiri.github.io/Angular-Weather-App/">Live path</a>
+                  <a href="https://github.com/Ramnarayan-Kotagiri/Angular-Weather-App">Code</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="repo-card" data-scope="product frontend">
+              <img src="https://opengraph.githubassets.com/rk-future-cocktail/Ramnarayan-Kotagiri/Angular-Cocktail-DB" alt="Angular-Cocktail-DB repository preview" loading="lazy" />
+              <div class="repo-body">
+                <p class="repo-path">/Angular-Cocktail-DB</p>
+                <h3>Angular-Cocktail-DB</h3>
+                <p>Angular app exploring catalog browsing, search, and third-party data.</p>
+                <div class="repo-actions">
+                  <a href="https://ramnarayan-kotagiri.github.io/Angular-Cocktail-DB/">Live path</a>
+                  <a href="https://github.com/Ramnarayan-Kotagiri/Angular-Cocktail-DB">Code</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="repo-card" data-scope="product frontend">
+              <img src="https://opengraph.githubassets.com/rk-future-type/Ramnarayan-Kotagiri/Typefaster-multi-player-game" alt="Typefaster-multi-player-game repository preview" loading="lazy" />
+              <div class="repo-body">
+                <p class="repo-path">/Typefaster-multi-player-game</p>
+                <h3>Typefaster-multi-player-game</h3>
+                <p>Real-time typing game concept built around multiplayer interaction.</p>
+                <div class="repo-actions">
+                  <a href="https://ramnarayan-kotagiri.github.io/Typefaster-multi-player-game/">Live path</a>
+                  <a href="https://github.com/Ramnarayan-Kotagiri/Typefaster-multi-player-game">Code</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="repo-card" data-scope="product">
+              <img src="https://opengraph.githubassets.com/rk-future-music/Ramnarayan-Kotagiri/VBI-Music-Player" alt="VBI-Music-Player repository preview" loading="lazy" />
+              <div class="repo-body">
+                <p class="repo-path">/VBI-Music-Player</p>
+                <h3>VBI-Music-Player</h3>
+                <p>Music player project focused on media controls and playback UX.</p>
+                <div class="repo-actions">
+                  <a href="https://ramnarayan-kotagiri.github.io/VBI-Music-Player/">Live path</a>
+                  <a href="https://github.com/Ramnarayan-Kotagiri/VBI-Music-Player">Code</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="repo-card" data-scope="tools">
+              <img src="https://opengraph.githubassets.com/rk-future-karate/Ramnarayan-Kotagiri/karate-testops" alt="karate-testops repository preview" loading="lazy" />
+              <div class="repo-body">
+                <p class="repo-path">/karate-testops</p>
+                <h3>karate-testops</h3>
+                <p>Test operations repository for API and automation workflows.</p>
+                <div class="repo-actions">
+                  <a href="https://ramnarayan-kotagiri.github.io/karate-testops/">Live path</a>
+                  <a href="https://github.com/Ramnarayan-Kotagiri/karate-testops">Code</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="repo-card" data-scope="tools">
+              <img src="https://opengraph.githubassets.com/rk-future-readme/Ramnarayan-Kotagiri/awesome-readme" alt="awesome-readme repository preview" loading="lazy" />
+              <div class="repo-body">
+                <p class="repo-path">/awesome-readme</p>
+                <h3>awesome-readme</h3>
+                <p>README and presentation resources for stronger developer-facing projects.</p>
+                <div class="repo-actions">
+                  <a href="https://ramnarayan-kotagiri.github.io/awesome-readme/">Live path</a>
+                  <a href="https://github.com/Ramnarayan-Kotagiri/awesome-readme">Code</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="repo-card" data-scope="product frontend">
+              <img src="https://opengraph.githubassets.com/rk-future-lalithya/Ramnarayan-Kotagiri/lalithya" alt="lalithya repository preview" loading="lazy" />
+              <div class="repo-body">
+                <p class="repo-path">/lalithya</p>
+                <h3>lalithya</h3>
+                <p>Custom web experience with a compact, presentation-driven codebase.</p>
+                <div class="repo-actions">
+                  <a href="https://ramnarayan-kotagiri.github.io/lalithya/">Live path</a>
+                  <a href="https://github.com/Ramnarayan-Kotagiri/lalithya">Code</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="repo-card" data-scope="tools">
+              <img src="https://opengraph.githubassets.com/rk-future-profile/Ramnarayan-Kotagiri/Ramnarayan-Kotagiri" alt="Ramnarayan-Kotagiri repository preview" loading="lazy" />
+              <div class="repo-body">
+                <p class="repo-path">/Ramnarayan-Kotagiri</p>
+                <h3>Ramnarayan-Kotagiri</h3>
+                <p>GitHub profile repository for profile-level presentation.</p>
+                <div class="repo-actions">
+                  <a href="https://github.com/Ramnarayan-Kotagiri/Ramnarayan-Kotagiri">Profile repo</a>
+                  <a href="https://github.com/Ramnarayan-Kotagiri/Ramnarayan-Kotagiri">Code</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="repo-card" data-scope="frontend product">
+              <img src="https://opengraph.githubassets.com/rk-future-pages/Ramnarayan-Kotagiri/Ramnarayan-Kotagiri.github.io" alt="Ramnarayan-Kotagiri.github.io repository preview" loading="lazy" />
+              <div class="repo-body">
+                <p class="repo-path">/</p>
+                <h3>Ramnarayan-Kotagiri.github.io</h3>
+                <p>This GitHub Pages portfolio, redesigned as a futuristic personal hub.</p>
+                <div class="repo-actions">
+                  <a href="https://ramnarayan-kotagiri.github.io/">Live site</a>
+                  <a href="https://github.com/Ramnarayan-Kotagiri/Ramnarayan-Kotagiri.github.io">Code</a>
+                </div>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section class="section-band experience" id="experience">
+          <div class="section-heading">
+            <p class="eyebrow">Experience + Research</p>
+            <h2>Practical delivery backed by technical depth.</h2>
+          </div>
+          <div class="timeline">
+            <div class="timeline-item">
+              <span>2017 - Now</span>
+              <div>
+                <h3>Full Stack JavaScript Developer, FBSI Ltd</h3>
+                <p>Full-stack web development with Agile and DevOps practices, focused on stronger productivity and shorter delivery cycles.</p>
               </div>
             </div>
-          </article>
-
-          <article class="project-card">
-            <div class="project-visual visual-commerce" aria-hidden="true">
-              <span></span><span></span><span></span><span></span>
-            </div>
-            <div class="project-body">
-              <p class="project-label">Mobile / PWA</p>
-              <h3>Cross-Platform App Experiences</h3>
-              <p>
-                Developed responsive mobile-first experiences and progressive web application patterns for practical user workflows.
-              </p>
-              <div class="tags">
-                <span>Ionic</span>
-                <span>PWA</span>
-                <span>Responsive</span>
+            <div class="timeline-item">
+              <span>Springer</span>
+              <div>
+                <h3>Encrypted separable reversible watermarking</h3>
+                <p>Research covering authentication and error correction for protected media workflows.</p>
               </div>
             </div>
-          </article>
-
-          <article class="project-card">
-            <div class="project-visual visual-platform" aria-hidden="true">
-              <span></span><span></span><span></span>
-            </div>
-            <div class="project-body">
-              <p class="project-label">Research</p>
-              <h3>Medical Image Processing Publications</h3>
-              <p>
-                Published work on reversible watermarking, glaucoma image classification, and medical image protection techniques.
-              </p>
-              <div class="tags">
-                <span>IEEE</span>
-                <span>Springer</span>
-                <span>SVM / HOG</span>
+            <div class="timeline-item">
+              <span>IEEE</span>
+              <div>
+                <h3>Glaucoma fundus image classification</h3>
+                <p>Medical image processing work using HOG features, SVM classification, and blood vessel extraction.</p>
               </div>
             </div>
-          </article>
-        </div>
-      </section>
+          </div>
+        </section>
 
-      <section class="section capabilities" id="capabilities">
-        <div class="section-heading">
-          <p class="section-kicker">Capabilities</p>
-          <h2>What I bring to engineering teams.</h2>
-        </div>
-        <div class="capability-list">
+        <section class="contact" id="contact">
           <div>
-            <h3>Front-end Interfaces</h3>
-            <p>Interactive web UIs, responsive layouts, reusable components, and maintainable client-side application structure.</p>
+            <p class="eyebrow">Contact</p>
+            <h2>Let's build something precise, polished, and useful.</h2>
+            <p>Reach out for full-stack web, Angular, Node.js, cloud integration, search, or product engineering work.</p>
           </div>
-          <div>
-            <h3>Back-end Services</h3>
-            <p>Node.js services, integration work, API flows, third-party services, and application logic that stays understandable.</p>
+          <div class="contact-actions">
+            <a class="button primary" href="mailto:rnrkotagiri@gmail.com">Email</a>
+            <a class="button secondary" href="tel:+918056043476">Call</a>
+            <a class="button secondary" href="https://github.com/Ramnarayan-Kotagiri">GitHub</a>
+            <a class="button secondary" href="https://www.linkedin.com/in/ramnarayan-kotagiri/">LinkedIn</a>
           </div>
-          <div>
-            <h3>Cloud & Delivery</h3>
-            <p>AWS, Docker, Agile collaboration, DevOps-minded delivery, and practical tradeoffs for shipping reliable software.</p>
-          </div>
-        </div>
-      </section>
+        </section>
+      </main>
 
-      <section class="section experience" id="experience">
-        <div class="section-heading">
-          <p class="section-kicker">Experience</p>
-          <h2>Experience and publications.</h2>
-        </div>
-        <div class="timeline">
-          <div class="timeline-item">
-            <span>01</span>
-            <div>
-              <h3>Full Stack JavaScript Developer, FBSI Ltd</h3>
-              <p>July 2017 - Present. Full-stack web development with Agile and DevOps practices to improve productivity and delivery time.</p>
-            </div>
-          </div>
-          <div class="timeline-item">
-            <span>02</span>
-            <div>
-              <h3>Encrypted Separable Reversible Watermarking</h3>
-              <p>Springer Nature publication covering authentication and error correction for protected media workflows.</p>
-            </div>
-          </div>
-          <div class="timeline-item">
-            <span>03</span>
-            <div>
-              <h3>Glaucoma Fundus Image Classification</h3>
-              <p>IEEE INDICON publication using HOG features, SVM classification, and blood vessel extraction.</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="contact" id="contact">
-        <div>
-          <p class="section-kicker">Contact</p>
-          <h2>Have a project, role, or collaboration in mind?</h2>
-          <p>Send a note with the context, timeline, and what success should look like.</p>
-        </div>
-        <div class="contact-actions">
-          <a class="button button-primary" href="mailto:rnrkotagiri@gmail.com">Email Ram</a>
-          <a class="button button-secondary" href="tel:+918056043476">Call</a>
-          <a class="button button-secondary" href="https://github.com/Ramnarayan-Kotagiri">GitHub</a>
-          <a class="button button-secondary" href="https://www.linkedin.com/in/ramnarayan-kotagiri/">LinkedIn</a>
-          <a class="button button-secondary" href="https://drive.google.com/file/d/1ZW9cdC_qoaTkV56DLji_kgKD0KKdZFlk/view?usp=sharing">Resume</a>
-        </div>
-      </section>
-    </main>
-
-    <footer class="site-footer">
-      <p>&copy; <span data-year></span> Ramnarayan Kotagiri</p>
-      <a href="#home">Back to top</a>
-    </footer>
+      <footer class="site-footer">
+        <p>&copy; <span data-year></span> Ramnarayan Kotagiri</p>
+        <a href="#home">Back to top</a>
+      </footer>
+    </div>
 
     <script src="script.js"></script>
   </body>

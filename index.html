@@ -1,376 +1,73 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Ramnarayan Kotagiri | Futuristic Portfolio</title>
-    <meta
-      name="description"
-      content="Ramnarayan Kotagiri is a full-stack JavaScript developer building web, mobile, cloud, and AI-search experiences."
-    />
-    <meta property="og:title" content="Ramnarayan Kotagiri | Portfolio" />
-    <meta
-      property="og:description"
-      content="Full-stack JavaScript developer portfolio with projects, technology stack, publications, and public GitHub repositories."
-    />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://ramnarayan-kotagiri.github.io/" />
-    <link rel="preconnect" href="https://cdn.jsdelivr.net" />
-    <link rel="preconnect" href="https://opengraph.githubassets.com" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <div class="page-shell">
-      <header class="site-header" data-header>
-        <a class="brand" href="#home" aria-label="Ramnarayan Kotagiri home">
-          <span class="brand-mark">RK</span>
-          <span>Ramnarayan Kotagiri</span>
-        </a>
-        <nav class="nav" aria-label="Primary navigation">
-          <a href="#stack">Stack</a>
-          <a href="#repos">Repos</a>
-          <a href="#experience">Experience</a>
-          <a href="#contact">Contact</a>
-        </nav>
-        <a class="nav-cta" href="https://drive.google.com/file/d/1ZW9cdC_qoaTkV56DLji_kgKD0KKdZFlk/view?usp=sharing">Resume</a>
-      </header>
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#19372b">
+  <title>Ramnarayan Kotagiri | Software Engineer for Living Landscapes</title>
+  <meta name="description" content="Ramnarayan Kotagiri is a software engineer building toward agricultural digital twins, field intelligence, and useful digital tools for farmers.">
+  <link rel="canonical" href="https://ramnarayan-kotagiri.github.io/">
+  <meta property="og:type" content="profile"><meta property="og:title" content="Ramnarayan Kotagiri | Software Engineer for Living Landscapes"><meta property="og:description" content="Full-stack and mobile engineering moving toward digital twins for living agricultural environments."><meta property="og:url" content="https://ramnarayan-kotagiri.github.io/"><meta property="og:image" content="https://ramnarayan-kotagiri.github.io/assets/social-card.png">
+  <meta name="twitter:card" content="summary_large_image"><meta name="twitter:image" content="https://ramnarayan-kotagiri.github.io/assets/social-card.png">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml"><link rel="manifest" href="manifest.json"><link rel="stylesheet" href="styles.css">
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"Ramnarayan Kotagiri","url":"https://ramnarayan-kotagiri.github.io/","sameAs":["https://github.com/Ramnarayan-Kotagiri","https://www.linkedin.com/in/ramnarayan-kotagiri/"],"jobTitle":"Software Engineer","knowsAbout":["Angular","Full-stack engineering","Mobile applications","Agricultural technology","Digital twins","GIS","Image processing"]}</script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header" data-header>
+    <a class="brand" href="#home" aria-label="Ramnarayan Kotagiri, home"><svg class="brand-mark" viewBox="0 0 42 42" aria-hidden="true"><path d="M21 4v34M7 17c7-8 21-8 28 0M10 26c6-5 16-5 22 0"/><circle cx="21" cy="21" r="17"/></svg><span><strong>Ramnarayan Kotagiri</strong><small>Engineering living systems</small></span></a>
+    <button class="menu-button" type="button" aria-expanded="false" aria-controls="primary-nav" data-menu-button><span class="sr-only">Open navigation</span><i></i><i></i></button>
+    <nav class="site-nav" id="primary-nav" aria-label="Primary navigation" data-nav><a href="#work">Work</a><a href="#system">Twin system</a><a href="#research">Research</a><a href="#about">About</a><a class="nav-contact" href="#contact">Contact</a></nav>
+  </header>
+  <main id="main">
+    <section class="hero" id="home" aria-labelledby="hero-title">
+      <div class="hero-intro">
+        <p class="kicker"><span></span> Software engineering · Agricultural technology</p>
+        <h1 id="hero-title">Ramnarayan<br>Kotagiri</h1>
+        <p class="hero-position">Software engineer building digital systems for <em>living landscapes.</em></p>
+        <p class="hero-summary">I connect full-stack and mobile product engineering with oil palm knowledge systems, geospatial thinking, sensing, and applied research.</p>
+        <div class="actions"><a class="button button-primary" href="#twin">Explore the twin <span aria-hidden="true">↓</span></a><a class="button" href="assets/Ramnarayan-Kotagiri-Resume.pdf" target="_blank" rel="noopener">View résumé</a><a class="text-link" href="#contact">Start a conversation <span aria-hidden="true">↗</span></a></div>
+        <dl class="hero-index"><div><dt>Foundation</dt><dd>Full-stack · Angular · Mobile</dd></div><div><dt>Direction</dt><dd>Digital twins · GIS · Field intelligence</dd></div><div><dt>Research</dt><dd>Image processing · Classification</dd></div></dl>
+      </div>
+      <div class="twin-shell" id="twin">
+        <div class="twin-toolbar"><div><span class="status-dot"></span><strong>Plantation Twin Explorer</strong><small>Conceptual interface · simulated telemetry</small></div><span class="coordinate">16.72°N / 81.10°E</span></div>
+        <div class="layer-controls" role="group" aria-label="Plantation map layers"><button type="button" class="layer-button is-active" data-layer="overview" aria-pressed="true"><span class="layer-symbol overview"></span>Field</button><button type="button" class="layer-button" data-layer="moisture" aria-pressed="false"><span class="layer-symbol moisture"></span>Moisture</button><button type="button" class="layer-button" data-layer="canopy" aria-pressed="false"><span class="layer-symbol canopy"></span>Canopy</button><button type="button" class="layer-button" data-layer="network" aria-pressed="false"><span class="layer-symbol network"></span>Sensors</button></div>
+        <div class="twin-stage" data-twin-stage>
+          <svg class="field-map" viewBox="0 0 720 470" role="img" aria-labelledby="map-title map-desc"><title id="map-title">Conceptual oil palm plantation field map</title><desc id="map-desc">Six keyboard-selectable plantation blocks with simulated field states.</desc>
+            <defs><pattern id="palms" width="42" height="36" patternUnits="userSpaceOnUse"><circle cx="20" cy="18" r="5"/><path d="M20 10v16M12 18h16M14 12l12 12M26 12L14 24"/></pattern><filter id="mapShadow"><feDropShadow dx="0" dy="8" stdDeviation="8" flood-opacity=".18"/></filter></defs>
+            <g class="contours" aria-hidden="true"><path d="M-20 92C112 18 210 109 344 47S588 1 760 76"/><path d="M-30 394c133-63 246 29 378-38s260-51 404 28"/><path d="M28 260c88-53 176-27 242 10s160 55 262-8 150-23 215 20"/></g><path class="watercourse" d="M338-10c-38 76 27 105-22 178s32 126-26 200-6 91-6 120" aria-hidden="true"/>
+            <g class="blocks" filter="url(#mapShadow)"><path class="field-block is-selected" tabindex="0" role="button" aria-label="Select block A1" data-block="A1" d="M45 53L222 38l73 105-48 87-190-24z"/><path class="field-block" tabindex="0" role="button" aria-label="Select block A2" data-block="A2" d="M309 42l174 13 38 136-183 23-43-71z"/><path class="field-block" tabindex="0" role="button" aria-label="Select block B1" data-block="B1" d="M538 66l137 55-30 124-113-49-11-5-38-136z"/><path class="field-block" tabindex="0" role="button" aria-label="Select block B2" data-block="B2" d="M55 225l190 23 42 112-76 63-162-59z"/><path class="field-block" tabindex="0" role="button" aria-label="Select block C1" data-block="C1" d="M337 232l181-22 43 120-68 91-174-48-32-13z"/><path class="field-block" tabindex="0" role="button" aria-label="Select block C2" data-block="C2" d="M532 216l111 48 22 104-91 63-81-10 68-91z"/></g>
+            <g class="palm-texture" aria-hidden="true"><path d="M45 53L222 38l73 105-48 87-190-24z"/><path d="M309 42l174 13 38 136-183 23-43-71z"/><path d="M538 66l137 55-30 124-113-49-11-5-38-136z"/><path d="M55 225l190 23 42 112-76 63-162-59z"/><path d="M337 232l181-22 43 120-68 91-174-48-32-13z"/><path d="M532 216l111 48 22 104-91 63-81-10 68-91z"/></g>
+            <g class="block-labels" aria-hidden="true"><text x="76" y="86">A1 · NORTH</text><text x="342" y="83">A2 · RIDGE</text><text x="557" y="123">B1 · EAST</text><text x="78" y="279">B2 · LOWER</text><text x="366" y="275">C1 · CENTRAL</text><text x="574" y="289">C2 · WATERLINE</text></g>
+            <g class="sensor-nodes" aria-hidden="true"><g transform="translate(178 150)"><circle r="10"/><circle r="3"/></g><g transform="translate(415 139)"><circle r="10"/><circle r="3"/></g><g transform="translate(594 177)"><circle r="10"/><circle r="3"/></g><g transform="translate(147 332)"><circle r="10"/><circle r="3"/></g><g transform="translate(435 333)"><circle r="10"/><circle r="3"/></g></g>
+          </svg><div class="map-legend" aria-hidden="true"><span><i></i>Palm grid</span><span><i></i>Water course</span><span><i></i>Sensor node</span></div>
+        </div>
+        <div class="block-panel" aria-live="polite"><div class="block-heading"><span>Selected field block</span><strong data-block-name>A1 · North Field</strong></div><dl class="telemetry"><div><dt>Area</dt><dd data-field="area">8.4 ha</dd></div><div><dt>Palm count</dt><dd data-field="palms">1,176 illustrative</dd></div><div><dt>Soil moisture</dt><dd data-field="moisture">31% simulated</dd></div><div><dt>Canopy index</dt><dd data-field="canopy">0.78 simulated</dd></div><div><dt>Rainfall</dt><dd data-field="rain">24 mm illustrative</dd></div><div><dt>Crop stage</dt><dd data-field="stage">Vegetative care</dd></div></dl><p class="operation-note"><span>Illustrative note</span><strong data-field="note">Review moisture variance along the northern boundary.</strong></p><p class="sync-label">Demonstration only · no live plantation or sensor connection</p></div>
+        <ol class="twin-loop" aria-label="Digital twin feedback loop"><li class="is-current">Observe</li><li>Structure</li><li>Model</li><li>Understand</li><li>Decide</li><li>Measure</li><li>Update</li></ol>
+      </div>
+    </section>
 
-      <main id="home">
-        <section class="hero section-band">
-          <div class="hero-copy">
-            <p class="eyebrow">Full-stack JavaScript developer</p>
-            <h1>Engineering sleek web systems for the next interface layer.</h1>
-            <p class="lede">
-              I build high-interaction web and mobile products with Angular, Node.js, Ionic, AWS, search platforms, and
-              delivery-focused engineering.
-            </p>
-            <div class="hero-actions">
-              <a class="button primary" href="#repos">Explore repos</a>
-              <a class="button secondary" href="mailto:rnrkotagiri@gmail.com">Start a conversation</a>
-            </div>
-          </div>
+    <section class="direction section" aria-labelledby="direction-title"><div class="section-label"><span>01</span> Engineering direction</div><div class="direction-grid"><h2 id="direction-title">From software products to intelligent field systems.</h2><div class="prose"><p>My foundation is in web, mobile, cloud, search, automation, and applied image-processing research. I am directing that experience toward digital tools that help people understand and manage living agricultural environments.</p><p>An agricultural digital twin is a continuously updated relationship between a physical plantation, observations, structured data, models, and human decisions. The work here separates what I have built from the system I am building toward.</p></div></div><div class="direction-track"><div><span>Built</span><strong>Product interfaces</strong><small>Angular, Ionic, full-stack systems</small></div><div><span>Applied</span><strong>Knowledge systems</strong><small>Oil palm content and crop-calendar concepts</small></div><div><span>Exploring</span><strong>Field intelligence</strong><small>GIS, imagery, sensing, machine learning</small></div><div><span>Building toward</span><strong>Living digital twins</strong><small>Decision support with feedback</small></div></div></section>
 
-          <aside class="identity-panel" aria-label="Profile snapshot">
-            <div class="avatar-frame">
-              <img src="https://avatars.githubusercontent.com/u/13601846?v=4" alt="Ramnarayan Kotagiri" />
-            </div>
-            <div>
-              <p class="panel-label">Ramnarayan Kotagiri</p>
-              <p class="panel-title">JavaScript / Angular / Node / Cloud</p>
-            </div>
-            <dl class="signal-grid">
-              <div>
-                <dt>Public repos</dt>
-                <dd>14</dd>
-              </div>
-              <div>
-                <dt>Experience</dt>
-                <dd>FBSI Ltd</dd>
-              </div>
-              <div>
-                <dt>Research</dt>
-                <dd>IEEE + Springer</dd>
-              </div>
-              <div>
-                <dt>Focus</dt>
-                <dd>Web / Mobile</dd>
-              </div>
-            </dl>
-          </aside>
-        </section>
+    <section class="case-study" id="work" aria-labelledby="case-title"><div class="case-intro section"><div class="section-label light"><span>02</span> Flagship existing work</div><div class="case-title-row"><div><p class="kicker light"><span></span> Closed-source application</p><h2 id="case-title">Oil Palm Cultivation Application</h2></div><p>A mobile-first information experience designed around oil palm cultivation knowledge. The application is existing work; the digital-twin extensions shown here are a future direction.</p></div></div><div class="case-body section">
+      <div class="phone-scene" aria-label="Original abstract representation of the oil palm cultivation mobile application"><div class="phone phone-back" aria-hidden="true"><div class="phone-screen"><div class="mini-header"></div><div class="mini-gallery"><i></i><i></i><i></i><i></i></div></div></div><div class="phone phone-front"><div class="phone-speaker"></div><div class="phone-screen"><div class="app-top"><small>OIL PALM FIELD GUIDE</small><strong>Good morning</strong><span>Cultivation knowledge at hand</span></div><div class="palm-graphic" aria-hidden="true"><i></i><i></i><i></i><b></b></div><div class="app-actions"><span>Crop calendar</span><span>Categories</span><span>Articles</span><span>Gallery</span></div></div></div><span class="annotation annotation-one">Mobile-first navigation</span><span class="annotation annotation-two">Structured cultivation content</span></div>
+      <div class="case-details"><p class="case-lede">The project organizes cultivation information into a field-friendly Ionic application with Angular routing and Capacitor mobile integration.</p><div class="case-columns"><div><h3>Verified foundation</h3><ul class="check-list"><li>Ionic and Angular architecture</li><li>Capacitor mobile integration</li><li>Information, category, article, and gallery routes</li><li>Oil palm cultivation information experience</li></ul></div><div><h3>Product intent</h3><ul class="plain-list"><li>Make specialist knowledge easier to navigate on a phone</li><li>Connect articles, categories, imagery, and crop timing</li><li>Create a base for contextual field tools</li></ul></div></div><div class="case-boundary"><span>Boundary</span><p>This portfolio exposes no private code, internal content, or unapproved screenshots. The interface is an original visual reconstruction, not a production screenshot.</p></div></div>
+    </div></section>
 
-        <section class="section-band intro">
-          <p class="eyebrow">Profile</p>
-          <div class="split">
-            <h2>Modern product engineering with research-grade problem solving.</h2>
-            <div class="copy-block">
-              <p>
-                I work across front-end interfaces, Node.js services, mobile-first experiences, search workflows, cloud
-                integrations, and delivery automation.
-              </p>
-              <p>
-                My background includes full-stack software development, Agile and DevOps delivery, and published research
-                in medical image processing, watermarking, and classification.
-              </p>
-            </div>
-          </div>
-        </section>
+    <section class="evolution section" aria-labelledby="evolution-title"><div class="section-label"><span>03</span> Product evolution</div><div class="section-heading"><h2 id="evolution-title">From cultivation guide to digital twin.</h2><p>Each capability builds on the last. Existing work is marked separately from conceptual future system layers.</p></div><ol class="evolution-steps"><li class="existing"><span>Existing</span><b>01</b><strong>Cultivation knowledge</strong><small>Articles, categories, galleries</small></li><li class="existing"><span>Existing concept</span><b>02</b><strong>Crop-calendar structure</strong><small>Time-aware guidance</small></li><li class="future"><span>Future capability</span><b>03</b><strong>Field identity + GIS</strong><small>Blocks, boundaries, locations</small></li><li class="future"><span>Future capability</span><b>04</b><strong>Observations + sensors</strong><small>Weather, soil, canopy</small></li><li class="future"><span>Future capability</span><b>05</b><strong>Models + history</strong><small>Patterns and scenarios</small></li><li class="future"><span>Future capability</span><b>06</b><strong>Decision feedback</strong><small>Actions measured and updated</small></li></ol></section>
 
-        <section class="section-band stack" id="stack">
-          <div class="section-heading">
-            <p class="eyebrow">Technology Stack</p>
-            <h2>Tools I use to ship polished systems.</h2>
-          </div>
-          <div class="tech-grid" aria-label="Technology icons">
-            <div><i class="devicon-javascript-plain colored"></i><span>JavaScript</span></div>
-            <div><i class="devicon-typescript-plain colored"></i><span>TypeScript</span></div>
-            <div><i class="devicon-angularjs-plain colored"></i><span>Angular</span></div>
-            <div><i class="devicon-react-original colored"></i><span>React</span></div>
-            <div><i class="devicon-nodejs-plain colored"></i><span>Node.js</span></div>
-            <div><i class="devicon-ionic-original colored"></i><span>Ionic</span></div>
-            <div><i class="devicon-html5-plain colored"></i><span>HTML5</span></div>
-            <div><i class="devicon-css3-plain colored"></i><span>CSS3</span></div>
-            <div><i class="devicon-mongodb-plain colored"></i><span>MongoDB</span></div>
-            <div><i class="devicon-amazonwebservices-plain-wordmark colored"></i><span>AWS</span></div>
-            <div><i class="devicon-docker-plain colored"></i><span>Docker</span></div>
-            <div><i class="devicon-python-plain colored"></i><span>Python</span></div>
-            <div><i class="devicon-npm-original-wordmark colored"></i><span>NPM</span></div>
-            <div><i class="devicon-git-plain colored"></i><span>Git</span></div>
-            <div><i class="devicon-azure-plain colored"></i><span>Azure</span></div>
-          </div>
-        </section>
+    <section class="system" id="system" aria-labelledby="system-title"><div class="section system-inner"><div class="section-label light"><span>04</span> Future system architecture</div><div class="section-heading light"><h2 id="system-title">A twin is a loop, not a snapshot.</h2><p>This conceptual stack maps my software foundation to the layers I am applying and exploring. It is not a deployed plantation system.</p></div><div class="system-flow" role="img" aria-label="Conceptual digital twin architecture from plantation to observations, data, twin state, decisions, and feedback"><div class="system-node physical"><span>Physical layer</span><strong>Plantation</strong><small>Palms · soil · water · weather</small></div><i>→</i><div class="system-node"><span>Observation</span><strong>Field signals</strong><small>Sensors · imagery · human notes</small></div><i>→</i><div class="system-node"><span>Platform</span><strong>Data foundation</strong><small>APIs · spatial + temporal records</small></div><i>→</i><div class="system-node"><span>Intelligence</span><strong>Twin state</strong><small>Models · context · uncertainty</small></div><i>→</i><div class="system-node decision"><span>Human layer</span><strong>Decisions</strong><small>Visualize · act · measure</small></div></div><div class="stack-map"><div><span>Established foundation</span><p>Angular, Ionic, JavaScript, Node.js, APIs, NoSQL, cloud delivery, search, automation.</p></div><div><span>Applied research</span><p>Feature extraction, image classification, data integrity, and protected media workflows.</p></div><div><span>Active direction</span><p>GIS, remote sensing, observations, machine learning, and field decision interfaces.</p></div></div></div></section>
 
-        <section class="section-band repos" id="repos">
-          <div class="section-heading repo-heading">
-            <div>
-              <p class="eyebrow">Public GitHub Repositories</p>
-              <h2>Live code surfaces from my profile.</h2>
-            </div>
-            <div class="repo-filters" aria-label="Repository filters">
-              <button class="filter-chip active" type="button" data-filter="all">All</button>
-              <button class="filter-chip" type="button" data-filter="frontend">Frontend</button>
-              <button class="filter-chip" type="button" data-filter="product">Product</button>
-              <button class="filter-chip" type="button" data-filter="tools">Tools</button>
-            </div>
-          </div>
+    <section class="projects section" aria-labelledby="projects-title"><div class="section-label"><span>05</span> Selected engineering work</div><div class="section-heading"><h2 id="projects-title">Products, search, and interaction.</h2><p>A curated view of public work that demonstrates breadth beyond the agricultural focus.</p></div><div class="project-list" data-featured-projects></div><div class="archive"><div class="archive-header"><div><span>Engineering index</span><h3>Project archive</h3></div><label>Filter projects <input type="search" data-project-search placeholder="Search project or technology"></label></div><div class="archive-table" data-project-archive></div></div></section>
 
-          <div class="repo-grid">
-            <article class="repo-card feature-repo" data-scope="frontend product">
-              <img src="https://opengraph.githubassets.com/rk-future-portfolio/Ramnarayan-Kotagiri/portfolio" alt="portfolio repository preview" loading="lazy" />
-              <div class="repo-body">
-                <p class="repo-path">/portfolio</p>
-                <h3>portfolio</h3>
-                <p>Original portfolio source and personal site foundation.</p>
-                <div class="repo-actions">
-                  <a href="https://ramnarayan-kotagiri.github.io/portfolio/">Live path</a>
-                  <a href="https://github.com/Ramnarayan-Kotagiri/portfolio">Code</a>
-                </div>
-              </div>
-            </article>
+    <section class="experience section" aria-labelledby="experience-title"><div class="section-label"><span>06</span> Experience</div><div class="section-heading"><h2 id="experience-title">Engineering record.</h2><p>Current status and dates remain subject to owner confirmation; only supported responsibilities and technologies are shown.</p></div><div class="experience-row"><div><span>2017 – present*</span><small>*Owner review requested</small></div><div><h3>Full Stack JavaScript Developer</h3><strong>FBSI Ltd</strong><p>Full-stack web development within Agile and DevOps delivery practices, working across Angular, Node.js, MongoDB, Express, Jenkins, Docker, EKS, and ServiceNow-related workflows.</p></div></div></section>
 
-            <article class="repo-card" data-scope="product frontend">
-              <img src="https://opengraph.githubassets.com/rk-future-propose/Ramnarayan-Kotagiri/propose" alt="propose repository preview" loading="lazy" />
-              <div class="repo-body">
-                <p class="repo-path">/propose</p>
-                <h3>propose</h3>
-                <p>Interactive proposal microsite with a focused, emotional product moment.</p>
-                <div class="repo-actions">
-                  <a href="https://ramnarayan-kotagiri.github.io/propose/">Live path</a>
-                  <a href="https://github.com/Ramnarayan-Kotagiri/propose">Code</a>
-                </div>
-              </div>
-            </article>
+    <section class="research section" id="research" aria-labelledby="research-title"><div class="section-label"><span>07</span> Research + publications</div><div class="section-heading"><h2 id="research-title">Methods that travel across domains.</h2><p>Published work in medical image processing and secure media systems informs how I think about imagery, classification, and data integrity. It did not study agriculture directly.</p></div><div class="publication-list" data-publications></div></section>
+    <section class="capabilities section" aria-labelledby="capabilities-title"><div class="section-label"><span>08</span> Capabilities</div><div class="section-heading"><h2 id="capabilities-title">Engineering across the system.</h2><p>Technologies support the work; capabilities describe what they make possible.</p></div><div class="capability-grid" data-capabilities></div></section>
 
-            <article class="repo-card" data-scope="tools frontend">
-              <img src="https://opengraph.githubassets.com/rk-future-ngx/Ramnarayan-Kotagiri/ngx-category-search" alt="ngx-category-search repository preview" loading="lazy" />
-              <div class="repo-body">
-                <p class="repo-path">/ngx-category-search</p>
-                <h3>ngx-category-search</h3>
-                <p>Angular category search component work for structured discovery flows.</p>
-                <div class="repo-actions">
-                  <a href="https://ramnarayan-kotagiri.github.io/ngx-category-search/">Live path</a>
-                  <a href="https://github.com/Ramnarayan-Kotagiri/ngx-category-search">Code</a>
-                </div>
-              </div>
-            </article>
+    <section class="about section" id="about" aria-labelledby="about-title"><div class="about-visual" aria-hidden="true"><div class="growth-rings"></div><svg viewBox="0 0 420 520"><path d="M210 505V186"/><path d="M210 230C112 207 57 145 34 55c91 7 153 58 176 175Z"/><path d="M210 292c100-12 158-68 183-154-91-1-157 44-183 154Z"/><path d="M210 367c-86-2-143-42-176-117 82-11 144 26 176 117Z"/></svg><span>Technology should stay accountable to the landscape and the people using it.</span></div><div class="about-copy"><div class="section-label"><span>09</span> About</div><h2 id="about-title">Software engineering grounded in useful systems.</h2><p>I am Ramnarayan Kotagiri, a JavaScript and full-stack engineer with experience spanning Angular applications, mobile products, backend services, cloud delivery, search, automation, and applied research.</p><p>My GitHub profile has long stated an interest in bringing digital capabilities to small-scale farmers. Oil palm cultivation software gave that direction a concrete domain. I am now developing the geospatial, sensing, imagery, and machine-learning perspective needed to think beyond static information tools and toward living digital systems.</p><p>I am interested in work where software has to respect field context, uncertain data, and the judgment of the people making decisions.</p><div class="about-links"><a href="https://github.com/Ramnarayan-Kotagiri" target="_blank" rel="noopener">GitHub <span>↗</span></a><a href="https://www.linkedin.com/in/ramnarayan-kotagiri/" target="_blank" rel="noopener">LinkedIn <span>↗</span></a><a href="assets/Ramnarayan-Kotagiri-Resume.pdf" target="_blank" rel="noopener">Résumé <span>↗</span></a></div></div></section>
 
-            <article class="repo-card" data-scope="tools">
-              <img src="https://opengraph.githubassets.com/rk-future-azure/Ramnarayan-Kotagiri/azure-search" alt="azure-search repository preview" loading="lazy" />
-              <div class="repo-body">
-                <p class="repo-path">/azure-search</p>
-                <h3>azure-search</h3>
-                <p>Search implementation experiments with Azure-backed discovery patterns.</p>
-                <div class="repo-actions">
-                  <a href="https://ramnarayan-kotagiri.github.io/azure-search/">Live path</a>
-                  <a href="https://github.com/Ramnarayan-Kotagiri/azure-search">Code</a>
-                </div>
-              </div>
-            </article>
-
-            <article class="repo-card" data-scope="product frontend">
-              <img src="https://opengraph.githubassets.com/rk-future-wedding/Ramnarayan-Kotagiri/wedding-invitation" alt="wedding-invitation repository preview" loading="lazy" />
-              <div class="repo-body">
-                <p class="repo-path">/wedding-invitation</p>
-                <h3>wedding-invitation</h3>
-                <p>Event microsite with a presentation-first user experience.</p>
-                <div class="repo-actions">
-                  <a href="https://ramnarayan-kotagiri.github.io/wedding-invitation/">Live path</a>
-                  <a href="https://github.com/Ramnarayan-Kotagiri/wedding-invitation">Code</a>
-                </div>
-              </div>
-            </article>
-
-            <article class="repo-card" data-scope="product frontend">
-              <img src="https://opengraph.githubassets.com/rk-future-weather/Ramnarayan-Kotagiri/Angular-Weather-App" alt="Angular-Weather-App repository preview" loading="lazy" />
-              <div class="repo-body">
-                <p class="repo-path">/Angular-Weather-App</p>
-                <h3>Angular-Weather-App</h3>
-                <p>Angular weather interface demonstrating API-driven front-end state.</p>
-                <div class="repo-actions">
-                  <a href="https://ramnarayan-kotagiri.github.io/Angular-Weather-App/">Live path</a>
-                  <a href="https://github.com/Ramnarayan-Kotagiri/Angular-Weather-App">Code</a>
-                </div>
-              </div>
-            </article>
-
-            <article class="repo-card" data-scope="product frontend">
-              <img src="https://opengraph.githubassets.com/rk-future-cocktail/Ramnarayan-Kotagiri/Angular-Cocktail-DB" alt="Angular-Cocktail-DB repository preview" loading="lazy" />
-              <div class="repo-body">
-                <p class="repo-path">/Angular-Cocktail-DB</p>
-                <h3>Angular-Cocktail-DB</h3>
-                <p>Angular app exploring catalog browsing, search, and third-party data.</p>
-                <div class="repo-actions">
-                  <a href="https://ramnarayan-kotagiri.github.io/Angular-Cocktail-DB/">Live path</a>
-                  <a href="https://github.com/Ramnarayan-Kotagiri/Angular-Cocktail-DB">Code</a>
-                </div>
-              </div>
-            </article>
-
-            <article class="repo-card" data-scope="product frontend">
-              <img src="https://opengraph.githubassets.com/rk-future-type/Ramnarayan-Kotagiri/Typefaster-multi-player-game" alt="Typefaster-multi-player-game repository preview" loading="lazy" />
-              <div class="repo-body">
-                <p class="repo-path">/Typefaster-multi-player-game</p>
-                <h3>Typefaster-multi-player-game</h3>
-                <p>Real-time typing game concept built around multiplayer interaction.</p>
-                <div class="repo-actions">
-                  <a href="https://ramnarayan-kotagiri.github.io/Typefaster-multi-player-game/">Live path</a>
-                  <a href="https://github.com/Ramnarayan-Kotagiri/Typefaster-multi-player-game">Code</a>
-                </div>
-              </div>
-            </article>
-
-            <article class="repo-card" data-scope="product">
-              <img src="https://opengraph.githubassets.com/rk-future-music/Ramnarayan-Kotagiri/VBI-Music-Player" alt="VBI-Music-Player repository preview" loading="lazy" />
-              <div class="repo-body">
-                <p class="repo-path">/VBI-Music-Player</p>
-                <h3>VBI-Music-Player</h3>
-                <p>Music player project focused on media controls and playback UX.</p>
-                <div class="repo-actions">
-                  <a href="https://ramnarayan-kotagiri.github.io/VBI-Music-Player/">Live path</a>
-                  <a href="https://github.com/Ramnarayan-Kotagiri/VBI-Music-Player">Code</a>
-                </div>
-              </div>
-            </article>
-
-            <article class="repo-card" data-scope="tools">
-              <img src="https://opengraph.githubassets.com/rk-future-karate/Ramnarayan-Kotagiri/karate-testops" alt="karate-testops repository preview" loading="lazy" />
-              <div class="repo-body">
-                <p class="repo-path">/karate-testops</p>
-                <h3>karate-testops</h3>
-                <p>Test operations repository for API and automation workflows.</p>
-                <div class="repo-actions">
-                  <a href="https://ramnarayan-kotagiri.github.io/karate-testops/">Live path</a>
-                  <a href="https://github.com/Ramnarayan-Kotagiri/karate-testops">Code</a>
-                </div>
-              </div>
-            </article>
-
-            <article class="repo-card" data-scope="tools">
-              <img src="https://opengraph.githubassets.com/rk-future-readme/Ramnarayan-Kotagiri/awesome-readme" alt="awesome-readme repository preview" loading="lazy" />
-              <div class="repo-body">
-                <p class="repo-path">/awesome-readme</p>
-                <h3>awesome-readme</h3>
-                <p>README and presentation resources for stronger developer-facing projects.</p>
-                <div class="repo-actions">
-                  <a href="https://ramnarayan-kotagiri.github.io/awesome-readme/">Live path</a>
-                  <a href="https://github.com/Ramnarayan-Kotagiri/awesome-readme">Code</a>
-                </div>
-              </div>
-            </article>
-
-            <article class="repo-card" data-scope="product frontend">
-              <img src="https://opengraph.githubassets.com/rk-future-lalithya/Ramnarayan-Kotagiri/lalithya" alt="lalithya repository preview" loading="lazy" />
-              <div class="repo-body">
-                <p class="repo-path">/lalithya</p>
-                <h3>lalithya</h3>
-                <p>Custom web experience with a compact, presentation-driven codebase.</p>
-                <div class="repo-actions">
-                  <a href="https://ramnarayan-kotagiri.github.io/lalithya/">Live path</a>
-                  <a href="https://github.com/Ramnarayan-Kotagiri/lalithya">Code</a>
-                </div>
-              </div>
-            </article>
-
-            <article class="repo-card" data-scope="tools">
-              <img src="https://opengraph.githubassets.com/rk-future-profile/Ramnarayan-Kotagiri/Ramnarayan-Kotagiri" alt="Ramnarayan-Kotagiri repository preview" loading="lazy" />
-              <div class="repo-body">
-                <p class="repo-path">/Ramnarayan-Kotagiri</p>
-                <h3>Ramnarayan-Kotagiri</h3>
-                <p>GitHub profile repository for profile-level presentation.</p>
-                <div class="repo-actions">
-                  <a href="https://github.com/Ramnarayan-Kotagiri/Ramnarayan-Kotagiri">Profile repo</a>
-                  <a href="https://github.com/Ramnarayan-Kotagiri/Ramnarayan-Kotagiri">Code</a>
-                </div>
-              </div>
-            </article>
-
-            <article class="repo-card" data-scope="frontend product">
-              <img src="https://opengraph.githubassets.com/rk-future-pages/Ramnarayan-Kotagiri/Ramnarayan-Kotagiri.github.io" alt="Ramnarayan-Kotagiri.github.io repository preview" loading="lazy" />
-              <div class="repo-body">
-                <p class="repo-path">/</p>
-                <h3>Ramnarayan-Kotagiri.github.io</h3>
-                <p>This GitHub Pages portfolio, redesigned as a futuristic personal hub.</p>
-                <div class="repo-actions">
-                  <a href="https://ramnarayan-kotagiri.github.io/">Live site</a>
-                  <a href="https://github.com/Ramnarayan-Kotagiri/Ramnarayan-Kotagiri.github.io">Code</a>
-                </div>
-              </div>
-            </article>
-          </div>
-        </section>
-
-        <section class="section-band experience" id="experience">
-          <div class="section-heading">
-            <p class="eyebrow">Experience + Research</p>
-            <h2>Practical delivery backed by technical depth.</h2>
-          </div>
-          <div class="timeline">
-            <div class="timeline-item">
-              <span>2017 - Now</span>
-              <div>
-                <h3>Full Stack JavaScript Developer, FBSI Ltd</h3>
-                <p>Full-stack web development with Agile and DevOps practices, focused on stronger productivity and shorter delivery cycles.</p>
-              </div>
-            </div>
-            <div class="timeline-item">
-              <span>Springer</span>
-              <div>
-                <h3>Encrypted separable reversible watermarking</h3>
-                <p>Research covering authentication and error correction for protected media workflows.</p>
-              </div>
-            </div>
-            <div class="timeline-item">
-              <span>IEEE</span>
-              <div>
-                <h3>Glaucoma fundus image classification</h3>
-                <p>Medical image processing work using HOG features, SVM classification, and blood vessel extraction.</p>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <section class="contact" id="contact">
-          <div>
-            <p class="eyebrow">Contact</p>
-            <h2>Let's build something precise, polished, and useful.</h2>
-            <p>Reach out for full-stack web, Angular, Node.js, cloud integration, search, or product engineering work.</p>
-          </div>
-          <div class="contact-actions">
-            <a class="button primary" href="mailto:rnrkotagiri@gmail.com">Email</a>
-            <a class="button secondary" href="tel:+918056043476">Call</a>
-            <a class="button secondary" href="https://github.com/Ramnarayan-Kotagiri">GitHub</a>
-            <a class="button secondary" href="https://www.linkedin.com/in/ramnarayan-kotagiri/">LinkedIn</a>
-          </div>
-        </section>
-      </main>
-
-      <footer class="site-footer">
-        <p>&copy; <span data-year></span> Ramnarayan Kotagiri</p>
-        <a href="#home">Back to top</a>
-      </footer>
-    </div>
-
-    <script src="script.js"></script>
-  </body>
+    <section class="contact section" id="contact" aria-labelledby="contact-title"><div class="contact-top"><div><div class="section-label light"><span>10</span> Contact</div><h2 id="contact-title">Build something that connects software to the field.</h2></div><a class="contact-arrow" href="mailto:rnrkotagiri@gmail.com" aria-label="Email Ramnarayan Kotagiri">↗</a></div><p>Open to conversations around agricultural technology, digital twins, Angular and mobile products, GIS and field intelligence, full-stack engineering, and applied research.</p><div class="contact-links"><a href="mailto:rnrkotagiri@gmail.com"><span>Email</span>rnrkotagiri@gmail.com</a><a href="https://www.linkedin.com/in/ramnarayan-kotagiri/" target="_blank" rel="noopener"><span>LinkedIn</span>ramnarayan-kotagiri</a><a href="https://github.com/Ramnarayan-Kotagiri" target="_blank" rel="noopener"><span>GitHub</span>Ramnarayan-Kotagiri</a></div></section>
+  </main>
+  <footer class="site-footer"><a class="brand footer-brand" href="#home"><svg class="brand-mark" viewBox="0 0 42 42" aria-hidden="true"><path d="M21 4v34M7 17c7-8 21-8 28 0M10 26c6-5 16-5 22 0"/><circle cx="21" cy="21" r="17"/></svg><span><strong>Ramnarayan Kotagiri</strong><small>Software engineer · Living systems</small></span></a><p>Conceptual living plantation twin.<br>All telemetry is simulated.</p><span>© <span data-year></span> Ramnarayan Kotagiri</span></footer>
+  <script src="data.js"></script><script src="script.js"></script>
+</body>
 </html>

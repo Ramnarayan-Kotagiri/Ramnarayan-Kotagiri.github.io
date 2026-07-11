@@ -8,4 +8,4 @@
 - Never imply a live plantation, sensor deployment, production AI, customer, or measured agricultural outcome without public evidence.
 - Preserve keyboard interaction, visible focus, semantic structure, reduced-motion behavior, and mobile usability.
 - Do not add a service worker, runtime GitHub API dependency, remote repository cards, or large visualization framework.
-- Do not regenerate local résumé or social assets unless the content is intentionally updated.
+- Do not regenerate social assets or change the public resume link unless the content is intentionally updated.

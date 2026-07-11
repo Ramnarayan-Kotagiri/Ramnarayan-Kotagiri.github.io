@@ -1,25 +1,9 @@
 {
-  "short_name": "Ramnarayan Portfolio",
-  "name": "Ramnarayan Portfolio",
-  "icons": [
-    {
-      "src": "/favicon.ico",
-      "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
-    },
-    {
-      "src": "/android-chrome-192x192.png?v8=qAJ44G5Bm7",
-      "type": "image/png",
-      "sizes": "192x192"
-    },
-    {
-      "src": "/android-chrome-384x384.png?v8=qAJ44G5Bm7",
-      "type": "image/png",
-      "sizes": "384x384"
-    }
-  ],
-  "start_url": ".",
-  "display": "standalone",
-  "theme_color": "#6c63ff",
-  "background_color": "#ffffff"
+  "name": "Ramnarayan Kotagiri — Living Plantation Twin",
+  "short_name": "RK Portfolio",
+  "start_url": "/",
+  "display": "browser",
+  "background_color": "#fafaf5",
+  "theme_color": "#18372b",
+  "icons": [{"src":"/assets/favicon.svg","sizes":"any","type":"image/svg+xml"}]
 }

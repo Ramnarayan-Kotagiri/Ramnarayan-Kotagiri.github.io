@@ -4,13 +4,11 @@ Ramnarayan Kotagiri's account-level GitHub Pages portfolio. It presents verified
 
 ## Local setup
 
-No dependency installation or build step is required. Serve the repository root with any static server:
+No dependency installation or build step is required. Open `index.html` directly or serve the repository root with any static server:
 
 ```powershell
 npx serve .
 ```
-
-Opening `index.html` directly is not supported because the site uses JavaScript modules.
 
 ## Architecture
 
@@ -18,7 +16,7 @@ Opening `index.html` directly is not supported because the site uses JavaScript 
 - `styles.css`: design tokens, responsive layout, visualization states, and reduced-motion rules
 - `data.js`: projects, publications, capabilities, and simulated twin block data
 - `script.js`: rendering and native interactions
-- `assets/`: local résumé and identity/SEO assets
+- `assets/`: local identity and SEO assets
 
 The dependency-free site publishes directly from `master` at `/`, avoids a runtime GitHub API dependency, and does not register a service worker.
 

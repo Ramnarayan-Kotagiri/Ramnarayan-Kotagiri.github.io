@@ -1,3 +1,4 @@
+(() => {
 const { twinBlocks, projects, publications, capabilities } = window.portfolioData;
 
 const $ = (selector, root = document) => root.querySelector(selector);
@@ -77,3 +78,4 @@ if ('serviceWorker' in navigator) {
     if ('caches' in window) (await caches.keys()).forEach((key) => caches.delete(key));
   });
 }
+})();
